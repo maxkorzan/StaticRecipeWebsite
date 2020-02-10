@@ -46,4 +46,9 @@ body {
     padding: 10px;
 }
 
-.well
+.well{
+    opacity: .50;
+    color: black;
+    font-family: Raleway;
+    background: #333333;
+}
