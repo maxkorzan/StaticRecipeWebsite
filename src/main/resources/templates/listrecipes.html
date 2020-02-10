@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>List of Recipes</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+<div class="topnav">
+    <a href="/">Home</a>
+    <a class="active" href="/listrecipes">Recipe List</a>
+    <a href="/garlicbread">Garlic Bread</a>
+    <a href="/pizza">Cheese Pizza</a>
+    <a href="/guacamole">Guacamole</a>
+</div>
+
+<style>
+    body {
+        background-image: url("recipebook.jfif");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: white;
+        font-family: Raleway;
+    }
+
+    div.gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        float: left;
+        width: 180px;
+    }
+
+    div.gallery:hover {
+        border: 1px solid #777;
+    }
+
+    div.gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    div.desc {
+        padding: 15px;
+        text-align: center;
+    }
+</style>
+
+
+<body>
+<h1 class="heading1" style="text-align:center">List of Recipes</h1>
+
+    <div class="gallery">
+        <a target="_blank" href="/garlicbread">
+            <img src="garlicbread.jfif" alt="Garlic Bread" width="600" height="400">
+        </a>
+        <div class="desc" style="text-align: center;">Garlic Bread</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="/pizza">
+            <img src="pizza2.jfif" alt="Pizza" width="600" height="400">
+        </a>
+        <div class="desc">Cheese Pizza</div>
+    </div>
+
+    <div class="gallery">
+        <a target="_blank" href="/guacamole">
+            <img src="guacamole.jfif" alt="Guacamole" width="600" height="400">
+        </a>
+        <div class="desc">Guacamole</div>
+    </div>
+
+</body>
+</html>

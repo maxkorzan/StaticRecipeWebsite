@@ -1,0 +1,49 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    opacity: 0.7;
+    overflow: hidden;
+    font-family: Raleway;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+
+body {
+    background-image: url("cuttingboard.jfif");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    font-family: Raleway;
+}
+
+.heading1{
+    color: white;
+    font-size: xx-large;
+    font-family: Raleway;
+    padding: 10px;
+}
+
+.well
