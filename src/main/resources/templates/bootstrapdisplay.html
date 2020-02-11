@@ -2,12 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Bootstrapped Recipe Grid</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+
 </head>
+
+<div class="topnav">
+    <a href="/">Home</a>
+    <a href="/listrecipes">Recipe List</a>
+    <a href="/garlicbread">Garlic Bread</a>
+    <a href="/pizza">Cheese Pizza</a>
+    <a href="/guacamole">Guacamole</a>
+    <a href="/about">About</a>
+    <a class="active" href="/bootstrapdisplay">BOOTSTRAP, BABY!</a>
+</div>
+
 <body>
-$END$
+<div style="width: 800px; margin: 0 auto">
+    <h1 class="heading1" style="text-align:center">Bootstrapped Recipe Grid</h1>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" style="max-height: 400px; object-fit: cover;">
+        <div class="carousel-item active">
+            <a href="/garlicbread">
+            <img src="garlicbread.jfif" class="d-block w-80" alt="...">
+        </div>
+        <div class="carousel-item">
+            <a href="/pizza">
+            <img src="pizza3.jfif" class="d-block w-80" alt="...">
+        </div>
+        <div class="carousel-item">
+            <a href="/guacamole">
+            <img src="guac3.jfif" class="d-block w-80" alt="..." >
+        </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

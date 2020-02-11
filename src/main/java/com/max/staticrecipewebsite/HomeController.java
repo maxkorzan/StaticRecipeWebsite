@@ -35,6 +35,16 @@ public class HomeController {
         return "listrecipes";
     }
 
+    @RequestMapping("/about")
+    public String about(){
+        return "about";
+    }
+
+    @RequestMapping("/bootstrapdisplay")
+    public String bootstrapdisplay(){
+        return "bootstrapdisplay";
+    }
+
 
 
 
