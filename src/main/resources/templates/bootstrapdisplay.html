@@ -6,11 +6,13 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="mystyle.css">
 
 </head>
 
-<div class="topnav">
+<!--<div class="topnav">
     <a href="/">Home</a>
     <a href="/listrecipes">Recipe List</a>
     <a href="/garlicbread">Garlic Bread</a>
@@ -18,11 +20,42 @@
     <a href="/guacamole">Guacamole</a>
     <a href="/about">About</a>
     <a class="active" href="/bootstrapdisplay">BOOTSTRAP, BABY!</a>
-</div>
+</div>-->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" style="font-family: 'Permanent Marker', cursive;" href="#">Menu</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link" href="/">Home</a>
+            <a class="nav-item nav-link" href="/listrecipes">Recipe List</a>
+            <a class="nav-item nav-link" href="/garlicbread">Garlic Bread</a>
+            <a class="nav-item nav-link" href="/pizza">Cheese Pizza</a>
+            <a class="nav-item nav-link" href="/guacamole">Guacamole</a>
+            <a class="nav-item nav-link" href="/about">About</a>
+            <a class="nav-item nav-link active" href="/bootstrapdisplay">BOOTSTRAP, BABY! <span class="sr-only">(current)</span></a>
+        </div>
+    </div>
+</nav>
 
 <body>
+<style>
+    body {
+        background-image: url("wood.jfif");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: white;
+        font-family: Raleway;
+    }
+</style>
+
 <div style="width: 800px; margin: 0 auto">
-    <h1 class="heading1" style="text-align:center">Bootstrapped Recipe Grid</h1>
+    <br>
+    <h1 class="display-3" style="text-align:center; font-family: Satisfy;">Bootstrapped Recipe Grid</h1>
+    <br>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -30,18 +63,18 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner" style="max-height: 400px; object-fit: cover;">
+    <div class="carousel-inner" style="object-fit: cover; height: 500px">
         <div class="carousel-item active">
             <a href="/garlicbread">
-            <img src="garlicbread.jfif" class="d-block w-80" alt="...">
+            <img src="garlicbread.jfif" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
             <a href="/pizza">
-            <img src="pizza3.jfif" class="d-block w-80" alt="...">
+            <img src="pizza2.jfif" class="d-block w-100" alt="...">
         </div>
         <div class="carousel-item">
             <a href="/guacamole">
-            <img src="guac3.jfif" class="d-block w-80" alt="..." >
+            <img src="guac1.jfif" class="d-block w-100" alt="..." >
         </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -53,6 +86,9 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
+<br>
+<h4 style="text-align: center; font-family: Satisfy;">Click on a dish!</h4>
+<h6 style="text-align: center; font-family: Satisfy;">(if you wish)</h6>
 
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
